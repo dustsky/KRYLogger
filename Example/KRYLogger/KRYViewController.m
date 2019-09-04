@@ -7,7 +7,7 @@
 //
 
 #import "KRYViewController.h"
-
+#import <KRYLogger>
 @interface KRYViewController ()
 
 @end

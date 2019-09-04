@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0227F8687FABD69CD392642664E1941F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		24F84911BC045C13BE182177383C4321 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE50461551253A9412973D5CE484299 /* ReplaceMe.m */; };
 		5088DF4CADAD38B8A3140242E0475510 /* Pods-KRYLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA556B5A0C865E54C6EE48E194C6E1A7 /* Pods-KRYLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB8BC2A2784B74F0C0CECF09C4D716C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		616AE1CC3184A2ABBE01152A2BC6E0B2 /* KRYLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 319D80516A078CC72891B4475B214DC8 /* KRYLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7332D558231F91C5005BF487 /* KRYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7332D549231F91C4005BF487 /* KRYLogger.h */; };
+		7332D558231F91C5005BF487 /* KRYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7332D549231F91C4005BF487 /* KRYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7332D559231F91C5005BF487 /* FileOperater.h in Headers */ = {isa = PBXBuildFile; fileRef = 7332D54F231F91C4005BF487 /* FileOperater.h */; };
 		7332D55A231F91C5005BF487 /* FileOperater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332D550231F91C4005BF487 /* FileOperater.m */; };
 		7332D55B231F91C5005BF487 /* LoggerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7332D556231F91C5005BF487 /* LoggerItem.h */; };
@@ -55,7 +54,6 @@
 		293613E0E3DE4F6A066AF62D04FFD1EF /* KRYLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRYLogger.xcconfig; sourceTree = "<group>"; };
 		319D80516A078CC72891B4475B214DC8 /* KRYLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRYLogger-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3AE50461551253A9412973D5CE484299 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KRYLogger/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3CBFCEEC2EC4BF09328672FE4EECD7CE /* Pods-KRYLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRYLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		45BB0BF31B8968F124338515774E75ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		51D76FEFD2ACFA6571D221D9D2961B18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -314,7 +312,6 @@
 			isa = PBXGroup;
 			children = (
 				7332D530231F900F005BF487 /* Classes */,
-				3AE50461551253A9412973D5CE484299 /* ReplaceMe.m */,
 				12C591622D5A4AB72F67E5BA277269B8 /* Pod */,
 				2D88AA3093383787D8890CBD5E6E5C68 /* Support Files */,
 			);
@@ -356,8 +353,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				616AE1CC3184A2ABBE01152A2BC6E0B2 /* KRYLogger-umbrella.h in Headers */,
-				7332D55B231F91C5005BF487 /* LoggerItem.h in Headers */,
 				7332D558231F91C5005BF487 /* KRYLogger.h in Headers */,
+				7332D55B231F91C5005BF487 /* LoggerItem.h in Headers */,
 				7332D559231F91C5005BF487 /* FileOperater.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,7 +494,6 @@
 				7332D55A231F91C5005BF487 /* FileOperater.m in Sources */,
 				7F583C85E1068C171B66088D0178F5E3 /* KRYLogger-dummy.m in Sources */,
 				7332D55C231F91C5005BF487 /* LoggerItem.m in Sources */,
-				24F84911BC045C13BE182177383C4321 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
