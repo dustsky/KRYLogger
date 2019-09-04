@@ -12,6 +12,11 @@
 		5088DF4CADAD38B8A3140242E0475510 /* Pods-KRYLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA556B5A0C865E54C6EE48E194C6E1A7 /* Pods-KRYLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB8BC2A2784B74F0C0CECF09C4D716C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		616AE1CC3184A2ABBE01152A2BC6E0B2 /* KRYLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 319D80516A078CC72891B4475B214DC8 /* KRYLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7332D558231F91C5005BF487 /* KRYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7332D549231F91C4005BF487 /* KRYLogger.h */; };
+		7332D559231F91C5005BF487 /* FileOperater.h in Headers */ = {isa = PBXBuildFile; fileRef = 7332D54F231F91C4005BF487 /* FileOperater.h */; };
+		7332D55A231F91C5005BF487 /* FileOperater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332D550231F91C4005BF487 /* FileOperater.m */; };
+		7332D55B231F91C5005BF487 /* LoggerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7332D556231F91C5005BF487 /* LoggerItem.h */; };
+		7332D55C231F91C5005BF487 /* LoggerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332D557231F91C5005BF487 /* LoggerItem.m */; };
 		7F583C85E1068C171B66088D0178F5E3 /* KRYLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A59CB4BC4B7D167A87C2DA08E708D /* KRYLogger-dummy.m */; };
 		851FD583AEBE6A652B6038C614684FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B4D1CDA267329985077B92E3A675D428 /* Pods-KRYLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE9598B6FE692DB3ABF29E878C1D4B /* Pods-KRYLogger_Tests-dummy.m */; };
@@ -39,12 +44,12 @@
 /* Begin PBXFileReference section */
 		01464733E05D4C87AB5CE421CFD1CD3C /* Pods-KRYLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRYLogger_Example-dummy.m"; sourceTree = "<group>"; };
 		034C70D8A7C1F746D28BC6AB94110ECA /* Pods-KRYLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRYLogger_Example.modulemap"; sourceTree = "<group>"; };
-		051346E1E9AA896403A50BE9E76E00FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		05D8284F3181DCD1527665704B567D46 /* KRYLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KRYLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		051346E1E9AA896403A50BE9E76E00FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		05D8284F3181DCD1527665704B567D46 /* KRYLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KRYLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		12F61E6D2F4DD3661754908AC390C565 /* Pods-KRYLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRYLogger_Tests.modulemap"; sourceTree = "<group>"; };
 		1BAC8A47975AF9361056DBA3CB91ECE1 /* Pods-KRYLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRYLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		20A7CA28D5AB5EBD07E7D919C498F5BB /* Pods-KRYLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRYLogger_Tests-resources.sh"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		252F569EC9A8B8C949CC9E9410A07B05 /* Pods-KRYLogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRYLogger_Example-resources.sh"; sourceTree = "<group>"; };
 		272B7F440B6543DE4DB2B1B90D994349 /* Pods-KRYLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRYLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		293613E0E3DE4F6A066AF62D04FFD1EF /* KRYLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRYLogger.xcconfig; sourceTree = "<group>"; };
@@ -52,19 +57,24 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3AE50461551253A9412973D5CE484299 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KRYLogger/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3CBFCEEC2EC4BF09328672FE4EECD7CE /* Pods-KRYLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRYLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		45BB0BF31B8968F124338515774E75ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		45BB0BF31B8968F124338515774E75ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		51D76FEFD2ACFA6571D221D9D2961B18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53292F583D200D25DEB3C8B9911EFE47 /* Pods-KRYLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRYLogger_Example-umbrella.h"; sourceTree = "<group>"; };
 		58B9F705403102FFB3771863A2F13F25 /* KRYLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRYLogger-prefix.pch"; sourceTree = "<group>"; };
 		68FCC7F55B3A78B84AA081A93BE65DB4 /* Pods-KRYLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRYLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		73E7CF823180E978F944F3066283E7F5 /* Pods_KRYLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRYLogger_Tests.framework; path = "Pods-KRYLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7332D549231F91C4005BF487 /* KRYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRYLogger.h; sourceTree = "<group>"; };
+		7332D54F231F91C4005BF487 /* FileOperater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOperater.h; sourceTree = "<group>"; };
+		7332D550231F91C4005BF487 /* FileOperater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOperater.m; sourceTree = "<group>"; };
+		7332D556231F91C5005BF487 /* LoggerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerItem.h; sourceTree = "<group>"; };
+		7332D557231F91C5005BF487 /* LoggerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerItem.m; sourceTree = "<group>"; };
+		73E7CF823180E978F944F3066283E7F5 /* Pods_KRYLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRYLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A120EBD66F00C2049A1A126DD557CA0 /* Pods-KRYLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRYLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8A39D08CA86259B56DBA34C939FD2A74 /* Pods-KRYLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRYLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
 		99ACD85ECC02761B4A522B68101C274C /* Pods-KRYLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRYLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A9B74747338309A96808B69A842006A4 /* Pods-KRYLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRYLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ABCE9598B6FE692DB3ABF29E878C1D4B /* Pods-KRYLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRYLogger_Tests-dummy.m"; sourceTree = "<group>"; };
-		B4FF6C3F14BE76E60003CDE4EF1DF0FD /* KRYLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRYLogger.framework; path = KRYLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEDDEBF397F3FEAA7A0F57ADDBC6B1A9 /* Pods_KRYLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRYLogger_Example.framework; path = "Pods-KRYLogger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FF6C3F14BE76E60003CDE4EF1DF0FD /* KRYLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRYLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDDEBF397F3FEAA7A0F57ADDBC6B1A9 /* Pods_KRYLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRYLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82965C3E2E2EA3C22057C01A09B9AAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FC1D90DADB47F121179BAD20C243D1 /* KRYLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRYLogger.modulemap; sourceTree = "<group>"; };
 		DEBC390B90F6D82F7998B6D0CCA06AB3 /* Pods-KRYLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRYLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -153,6 +163,108 @@
 			path = "Target Support Files/Pods-KRYLogger_Tests";
 			sourceTree = "<group>";
 		};
+		7332D530231F900F005BF487 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7332D54A231F91C4005BF487 /* Core */,
+				7332D548231F91C4005BF487 /* Header */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7332D548231F91C4005BF487 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				7332D549231F91C4005BF487 /* KRYLogger.h */,
+			);
+			name = Header;
+			path = ../KRYLogger/Classes/Header;
+			sourceTree = "<group>";
+		};
+		7332D54A231F91C4005BF487 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7332D54B231F91C4005BF487 /* Database */,
+				7332D54C231F91C4005BF487 /* Net */,
+				7332D54D231F91C4005BF487 /* Configure */,
+				7332D54E231F91C4005BF487 /* File */,
+				7332D551231F91C4005BF487 /* Security */,
+				7332D552231F91C4005BF487 /* Entity */,
+				7332D553231F91C5005BF487 /* Common */,
+				7332D554231F91C5005BF487 /* Json */,
+				7332D555231F91C5005BF487 /* Model */,
+			);
+			name = Core;
+			path = ../KRYLogger/Classes/Core;
+			sourceTree = "<group>";
+		};
+		7332D54B231F91C4005BF487 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		7332D54C231F91C4005BF487 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		7332D54D231F91C4005BF487 /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		7332D54E231F91C4005BF487 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				7332D54F231F91C4005BF487 /* FileOperater.h */,
+				7332D550231F91C4005BF487 /* FileOperater.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		7332D551231F91C4005BF487 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		7332D552231F91C4005BF487 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7332D553231F91C5005BF487 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7332D554231F91C5005BF487 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		7332D555231F91C5005BF487 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7332D556231F91C5005BF487 /* LoggerItem.h */,
+				7332D557231F91C5005BF487 /* LoggerItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +313,7 @@
 		DB3535244DECC24A925F3AB3A935F131 /* KRYLogger */ = {
 			isa = PBXGroup;
 			children = (
+				7332D530231F900F005BF487 /* Classes */,
 				3AE50461551253A9412973D5CE484299 /* ReplaceMe.m */,
 				12C591622D5A4AB72F67E5BA277269B8 /* Pod */,
 				2D88AA3093383787D8890CBD5E6E5C68 /* Support Files */,
@@ -243,6 +356,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				616AE1CC3184A2ABBE01152A2BC6E0B2 /* KRYLogger-umbrella.h in Headers */,
+				7332D55B231F91C5005BF487 /* LoggerItem.h in Headers */,
+				7332D558231F91C5005BF487 /* KRYLogger.h in Headers */,
+				7332D559231F91C5005BF487 /* FileOperater.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +494,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7332D55A231F91C5005BF487 /* FileOperater.m in Sources */,
 				7F583C85E1068C171B66088D0178F5E3 /* KRYLogger-dummy.m in Sources */,
+				7332D55C231F91C5005BF487 /* LoggerItem.m in Sources */,
 				24F84911BC045C13BE182177383C4321 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,8 +645,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
