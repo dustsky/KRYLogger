@@ -1,0 +1,6 @@
+framework module Pods_KRYLogger_Tests {
+  umbrella header "Pods-KRYLogger_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

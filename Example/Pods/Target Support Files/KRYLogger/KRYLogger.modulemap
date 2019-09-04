@@ -1,0 +1,6 @@
+framework module KRYLogger {
+  umbrella header "KRYLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

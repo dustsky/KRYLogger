@@ -1,0 +1,16 @@
+PODS:
+  - KRYLogger (0.1.0)
+
+DEPENDENCIES:
+  - KRYLogger (from `../`)
+
+EXTERNAL SOURCES:
+  KRYLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KRYLogger: 43e712cde86b12f5fb3c4e241b0704a386ec08ac
+
+PODFILE CHECKSUM: 4fd045e248256d97bf003d1a43e9f44062c4a728
+
+COCOAPODS: 1.5.3

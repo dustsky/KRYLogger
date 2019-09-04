@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0227F8687FABD69CD392642664E1941F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		24F84911BC045C13BE182177383C4321 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE50461551253A9412973D5CE484299 /* ReplaceMe.m */; };
+		5088DF4CADAD38B8A3140242E0475510 /* Pods-KRYLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA556B5A0C865E54C6EE48E194C6E1A7 /* Pods-KRYLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BB8BC2A2784B74F0C0CECF09C4D716C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		616AE1CC3184A2ABBE01152A2BC6E0B2 /* KRYLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 319D80516A078CC72891B4475B214DC8 /* KRYLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F583C85E1068C171B66088D0178F5E3 /* KRYLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A59CB4BC4B7D167A87C2DA08E708D /* KRYLogger-dummy.m */; };
+		851FD583AEBE6A652B6038C614684FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B4D1CDA267329985077B92E3A675D428 /* Pods-KRYLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE9598B6FE692DB3ABF29E878C1D4B /* Pods-KRYLogger_Tests-dummy.m */; };
+		CC9DA747C5AC006043FD7888A511D3C0 /* Pods-KRYLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53292F583D200D25DEB3C8B9911EFE47 /* Pods-KRYLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA4022DDCBF5AF976D21DBCE79727534 /* Pods-KRYLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01464733E05D4C87AB5CE421CFD1CD3C /* Pods-KRYLogger_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AA63E577394E17B9C1F30344860A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BDFCF6FAF62492614E8C9E91F21B803;
+			remoteInfo = KRYLogger;
+		};
+		30DEC1382A4D25163AECAA151119D1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64226C998FD5EBDDB684C73A6D321EF2;
+			remoteInfo = "Pods-KRYLogger_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01464733E05D4C87AB5CE421CFD1CD3C /* Pods-KRYLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRYLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		034C70D8A7C1F746D28BC6AB94110ECA /* Pods-KRYLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRYLogger_Example.modulemap"; sourceTree = "<group>"; };
+		051346E1E9AA896403A50BE9E76E00FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		05D8284F3181DCD1527665704B567D46 /* KRYLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KRYLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		12F61E6D2F4DD3661754908AC390C565 /* Pods-KRYLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRYLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		1BAC8A47975AF9361056DBA3CB91ECE1 /* Pods-KRYLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRYLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		20A7CA28D5AB5EBD07E7D919C498F5BB /* Pods-KRYLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRYLogger_Tests-resources.sh"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		252F569EC9A8B8C949CC9E9410A07B05 /* Pods-KRYLogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRYLogger_Example-resources.sh"; sourceTree = "<group>"; };
+		272B7F440B6543DE4DB2B1B90D994349 /* Pods-KRYLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRYLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		293613E0E3DE4F6A066AF62D04FFD1EF /* KRYLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRYLogger.xcconfig; sourceTree = "<group>"; };
+		319D80516A078CC72891B4475B214DC8 /* KRYLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRYLogger-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AE50461551253A9412973D5CE484299 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KRYLogger/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3CBFCEEC2EC4BF09328672FE4EECD7CE /* Pods-KRYLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRYLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		45BB0BF31B8968F124338515774E75ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		51D76FEFD2ACFA6571D221D9D2961B18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53292F583D200D25DEB3C8B9911EFE47 /* Pods-KRYLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRYLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		58B9F705403102FFB3771863A2F13F25 /* KRYLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRYLogger-prefix.pch"; sourceTree = "<group>"; };
+		68FCC7F55B3A78B84AA081A93BE65DB4 /* Pods-KRYLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRYLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73E7CF823180E978F944F3066283E7F5 /* Pods_KRYLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRYLogger_Tests.framework; path = "Pods-KRYLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A120EBD66F00C2049A1A126DD557CA0 /* Pods-KRYLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRYLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8A39D08CA86259B56DBA34C939FD2A74 /* Pods-KRYLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRYLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		99ACD85ECC02761B4A522B68101C274C /* Pods-KRYLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRYLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A9B74747338309A96808B69A842006A4 /* Pods-KRYLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRYLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABCE9598B6FE692DB3ABF29E878C1D4B /* Pods-KRYLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRYLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		B4FF6C3F14BE76E60003CDE4EF1DF0FD /* KRYLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRYLogger.framework; path = KRYLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDDEBF397F3FEAA7A0F57ADDBC6B1A9 /* Pods_KRYLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRYLogger_Example.framework; path = "Pods-KRYLogger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82965C3E2E2EA3C22057C01A09B9AAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FC1D90DADB47F121179BAD20C243D1 /* KRYLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRYLogger.modulemap; sourceTree = "<group>"; };
+		DEBC390B90F6D82F7998B6D0CCA06AB3 /* Pods-KRYLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRYLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E57A59CB4BC4B7D167A87C2DA08E708D /* KRYLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRYLogger-dummy.m"; sourceTree = "<group>"; };
+		E846B1CF69066F8DAEA79C0074DA4070 /* Pods-KRYLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRYLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F69A3197403AA0176EBF84D07A6E382B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA556B5A0C865E54C6EE48E194C6E1A7 /* Pods-KRYLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRYLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333462F6BE3B1812A2F23A664754C952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851FD583AEBE6A652B6038C614684FA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE7A083013F1BD77864936DB61010B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0227F8687FABD69CD392642664E1941F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A5D0E5D3E9B263387BFF59B3CF19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB8BC2A2784B74F0C0CECF09C4D716C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C591622D5A4AB72F67E5BA277269B8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				05D8284F3181DCD1527665704B567D46 /* KRYLogger.podspec */,
+				45BB0BF31B8968F124338515774E75ED /* LICENSE */,
+				051346E1E9AA896403A50BE9E76E00FC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		15FFF76A6884019248681CBC663443F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F187FAD0E35B8A7F84920CC39DB5D /* Pods-KRYLogger_Example */,
+				538AF4FD963A10440CF8215D9CDF6CB0 /* Pods-KRYLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2D88AA3093383787D8890CBD5E6E5C68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51D76FEFD2ACFA6571D221D9D2961B18 /* Info.plist */,
+				D4FC1D90DADB47F121179BAD20C243D1 /* KRYLogger.modulemap */,
+				293613E0E3DE4F6A066AF62D04FFD1EF /* KRYLogger.xcconfig */,
+				E57A59CB4BC4B7D167A87C2DA08E708D /* KRYLogger-dummy.m */,
+				58B9F705403102FFB3771863A2F13F25 /* KRYLogger-prefix.pch */,
+				319D80516A078CC72891B4475B214DC8 /* KRYLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KRYLogger";
+			sourceTree = "<group>";
+		};
+		538AF4FD963A10440CF8215D9CDF6CB0 /* Pods-KRYLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F69A3197403AA0176EBF84D07A6E382B /* Info.plist */,
+				12F61E6D2F4DD3661754908AC390C565 /* Pods-KRYLogger_Tests.modulemap */,
+				E846B1CF69066F8DAEA79C0074DA4070 /* Pods-KRYLogger_Tests-acknowledgements.markdown */,
+				A9B74747338309A96808B69A842006A4 /* Pods-KRYLogger_Tests-acknowledgements.plist */,
+				ABCE9598B6FE692DB3ABF29E878C1D4B /* Pods-KRYLogger_Tests-dummy.m */,
+				7A120EBD66F00C2049A1A126DD557CA0 /* Pods-KRYLogger_Tests-frameworks.sh */,
+				20A7CA28D5AB5EBD07E7D919C498F5BB /* Pods-KRYLogger_Tests-resources.sh */,
+				FA556B5A0C865E54C6EE48E194C6E1A7 /* Pods-KRYLogger_Tests-umbrella.h */,
+				1BAC8A47975AF9361056DBA3CB91ECE1 /* Pods-KRYLogger_Tests.debug.xcconfig */,
+				3CBFCEEC2EC4BF09328672FE4EECD7CE /* Pods-KRYLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-KRYLogger_Tests";
+			path = "Target Support Files/Pods-KRYLogger_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7F80DE83BA3CA6C37FC3807E5643730 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB3535244DECC24A925F3AB3A935F131 /* KRYLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C92AD0F8AC73DA5722724C16B94B95DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF6C3F14BE76E60003CDE4EF1DF0FD /* KRYLogger.framework */,
+				BEDDEBF397F3FEAA7A0F57ADDBC6B1A9 /* Pods_KRYLogger_Example.framework */,
+				73E7CF823180E978F944F3066283E7F5 /* Pods_KRYLogger_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				C7F80DE83BA3CA6C37FC3807E5643730 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C92AD0F8AC73DA5722724C16B94B95DE /* Products */,
+				15FFF76A6884019248681CBC663443F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB3535244DECC24A925F3AB3A935F131 /* KRYLogger */ = {
+			isa = PBXGroup;
+			children = (
+				3AE50461551253A9412973D5CE484299 /* ReplaceMe.m */,
+				12C591622D5A4AB72F67E5BA277269B8 /* Pod */,
+				2D88AA3093383787D8890CBD5E6E5C68 /* Support Files */,
+			);
+			name = KRYLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EE2F187FAD0E35B8A7F84920CC39DB5D /* Pods-KRYLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C82965C3E2E2EA3C22057C01A09B9AAF /* Info.plist */,
+				034C70D8A7C1F746D28BC6AB94110ECA /* Pods-KRYLogger_Example.modulemap */,
+				DEBC390B90F6D82F7998B6D0CCA06AB3 /* Pods-KRYLogger_Example-acknowledgements.markdown */,
+				68FCC7F55B3A78B84AA081A93BE65DB4 /* Pods-KRYLogger_Example-acknowledgements.plist */,
+				01464733E05D4C87AB5CE421CFD1CD3C /* Pods-KRYLogger_Example-dummy.m */,
+				8A39D08CA86259B56DBA34C939FD2A74 /* Pods-KRYLogger_Example-frameworks.sh */,
+				252F569EC9A8B8C949CC9E9410A07B05 /* Pods-KRYLogger_Example-resources.sh */,
+				53292F583D200D25DEB3C8B9911EFE47 /* Pods-KRYLogger_Example-umbrella.h */,
+				272B7F440B6543DE4DB2B1B90D994349 /* Pods-KRYLogger_Example.debug.xcconfig */,
+				99ACD85ECC02761B4A522B68101C274C /* Pods-KRYLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-KRYLogger_Example";
+			path = "Target Support Files/Pods-KRYLogger_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7C894A01ADCEE584F02813FDA0FA1BBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9DA747C5AC006043FD7888A511D3C0 /* Pods-KRYLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8C0173E47EE553AAC0D74C2B300938 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616AE1CC3184A2ABBE01152A2BC6E0B2 /* KRYLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3327A47D23B8FFE6C3450DAD506913A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5088DF4CADAD38B8A3140242E0475510 /* Pods-KRYLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BDFCF6FAF62492614E8C9E91F21B803 /* KRYLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC7CBBC03B99A8AA763DBCE657A53EB /* Build configuration list for PBXNativeTarget "KRYLogger" */;
+			buildPhases = (
+				BD8C0173E47EE553AAC0D74C2B300938 /* Headers */,
+				8AD096262D4A2F779EDD56A7BE0D66AF /* Sources */,
+				6CE7A083013F1BD77864936DB61010B9 /* Frameworks */,
+				DD7E7D9BDF1E26B530FCF2CB77E83432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRYLogger;
+			productName = KRYLogger;
+			productReference = B4FF6C3F14BE76E60003CDE4EF1DF0FD /* KRYLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64226C998FD5EBDDB684C73A6D321EF2 /* Pods-KRYLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CA88FE0B506BE95ED4008A42421EA2 /* Build configuration list for PBXNativeTarget "Pods-KRYLogger_Example" */;
+			buildPhases = (
+				7C894A01ADCEE584F02813FDA0FA1BBE /* Headers */,
+				C537DDF47075A912C763FDC1F158E7B3 /* Sources */,
+				7F4A5D0E5D3E9B263387BFF59B3CF19F /* Frameworks */,
+				4045EC0B28A56DD65B05253998D1995C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231639BB36EB42229400160E2545A19E /* PBXTargetDependency */,
+			);
+			name = "Pods-KRYLogger_Example";
+			productName = "Pods-KRYLogger_Example";
+			productReference = BEDDEBF397F3FEAA7A0F57ADDBC6B1A9 /* Pods_KRYLogger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		911B896E661F52787493EC1E7F2678DC /* Pods-KRYLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402953E6CF7052DDFF27D98094F70B9D /* Build configuration list for PBXNativeTarget "Pods-KRYLogger_Tests" */;
+			buildPhases = (
+				E3327A47D23B8FFE6C3450DAD506913A /* Headers */,
+				6E94AB4DE36804581ACF15E377D7F8D8 /* Sources */,
+				333462F6BE3B1812A2F23A664754C952 /* Frameworks */,
+				7AE3F8586D9D759185D8D20E24D3CA09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CAF0E4FC69E287184F9D159FA733D05 /* PBXTargetDependency */,
+			);
+			name = "Pods-KRYLogger_Tests";
+			productName = "Pods-KRYLogger_Tests";
+			productReference = 73E7CF823180E978F944F3066283E7F5 /* Pods_KRYLogger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C92AD0F8AC73DA5722724C16B94B95DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BDFCF6FAF62492614E8C9E91F21B803 /* KRYLogger */,
+				64226C998FD5EBDDB684C73A6D321EF2 /* Pods-KRYLogger_Example */,
+				911B896E661F52787493EC1E7F2678DC /* Pods-KRYLogger_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4045EC0B28A56DD65B05253998D1995C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE3F8586D9D759185D8D20E24D3CA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7E7D9BDF1E26B530FCF2CB77E83432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E94AB4DE36804581ACF15E377D7F8D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D1CDA267329985077B92E3A675D428 /* Pods-KRYLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD096262D4A2F779EDD56A7BE0D66AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F583C85E1068C171B66088D0178F5E3 /* KRYLogger-dummy.m in Sources */,
+				24F84911BC045C13BE182177383C4321 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C537DDF47075A912C763FDC1F158E7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4022DDCBF5AF976D21DBCE79727534 /* Pods-KRYLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CAF0E4FC69E287184F9D159FA733D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KRYLogger_Example";
+			target = 64226C998FD5EBDDB684C73A6D321EF2 /* Pods-KRYLogger_Example */;
+			targetProxy = 30DEC1382A4D25163AECAA151119D1A6 /* PBXContainerItemProxy */;
+		};
+		231639BB36EB42229400160E2545A19E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRYLogger;
+			target = 2BDFCF6FAF62492614E8C9E91F21B803 /* KRYLogger */;
+			targetProxy = 18AA63E577394E17B9C1F30344860A6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		380C08B383F04D18358C5D3D88D3F6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293613E0E3DE4F6A066AF62D04FFD1EF /* KRYLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRYLogger/KRYLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRYLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRYLogger/KRYLogger.modulemap";
+				PRODUCT_MODULE_NAME = KRYLogger;
+				PRODUCT_NAME = KRYLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AE7A5F4B9F5EF98826125417940CA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293613E0E3DE4F6A066AF62D04FFD1EF /* KRYLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRYLogger/KRYLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRYLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRYLogger/KRYLogger.modulemap";
+				PRODUCT_MODULE_NAME = KRYLogger;
+				PRODUCT_NAME = KRYLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		62780A8B4B44B3DFA98345371325579F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		973C38F84A51ECD03D1E44601506C2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272B7F440B6543DE4DB2B1B90D994349 /* Pods-KRYLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRYLogger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRYLogger_Example/Pods-KRYLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0C43490C6DB9D00618231AAA7772EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99ACD85ECC02761B4A522B68101C274C /* Pods-KRYLogger_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRYLogger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRYLogger_Example/Pods-KRYLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5A479DF6BEA57A0278FFE8368AEC799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BAC8A47975AF9361056DBA3CB91ECE1 /* Pods-KRYLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRYLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRYLogger_Tests/Pods-KRYLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D26F279C49966398FD27C6CCA9B1782C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBFCEEC2EC4BF09328672FE4EECD7CE /* Pods-KRYLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRYLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRYLogger_Tests/Pods-KRYLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		402953E6CF7052DDFF27D98094F70B9D /* Build configuration list for PBXNativeTarget "Pods-KRYLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A479DF6BEA57A0278FFE8368AEC799 /* Debug */,
+				D26F279C49966398FD27C6CCA9B1782C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CA88FE0B506BE95ED4008A42421EA2 /* Build configuration list for PBXNativeTarget "Pods-KRYLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973C38F84A51ECD03D1E44601506C2CA /* Debug */,
+				C0C43490C6DB9D00618231AAA7772EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62780A8B4B44B3DFA98345371325579F /* Debug */,
+				3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC7CBBC03B99A8AA763DBCE657A53EB /* Build configuration list for PBXNativeTarget "KRYLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380C08B383F04D18358C5D3D88D3F6B2 /* Debug */,
+				3AE7A5F4B9F5EF98826125417940CA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
